@@ -23,13 +23,13 @@ web:
                         Access-Control-Allow-Headers: "X-Requested-With"
                 '^/robots\.txt$':
                     allow: true
-		    headers:
+                    headers:
                         Access-Control-Allow-Origin: "*"
                         Access-Control-Allow-Credentials: "*"
                         Access-Control-Allow-Headers: "X-Requested-With"
                 '^/sitemap\.xml$':
                     allow: true
-		    headers:
+                    headers:
                         Access-Control-Allow-Origin: "*"
                         Access-Control-Allow-Credentials: "*"
                         Access-Control-Allow-Headers: "X-Requested-With"
