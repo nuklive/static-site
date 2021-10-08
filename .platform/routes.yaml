@@ -1,6 +1,6 @@
 "https://www.{default}":
   type: upstream
-  upstream" "static-site:http"
+  upstream: "static-site:http"
 
 "https://{default}":
   type: redirect
