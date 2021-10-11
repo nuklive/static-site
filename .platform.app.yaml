@@ -12,3 +12,10 @@ web:
       scripts: false
       index:
         - index.html
+      rules:
+                '(?i)\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf)$':
+                    allow: true
+                '^/robots\.txt$':
+                    allow: true
+                '^/sitemap\.xml$':
+                    allow: true
